@@ -1,0 +1,40 @@
+body {
+    background: #f6f6f8;
+    margin-top: -50px;
+    padding: 40px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    opacity: 0.3;
+    margin: 0 20px;
+    transform: translate(5%, -10%);
+    .info, .link, .project, .social-media {
+        margin: 0 10px;
+        width: 100%;
+        p, summary, a {
+            color: #000;
+            text-decoration: none;
+            clear: right;
+            font-size: 14px;
+        }
+        div, details {
+            img { float: left; }
+            
+            margin: 20px 10px;
+        }
+    }
+}
+
+hr {
+    margin: 0 3.5em;
+    opacity: 0.3;
+}
+
+.rights {
+    font-size: 12px;
+    opacity: 0.3;
+    text-align: center;
+    margin: 20px 0;
+}

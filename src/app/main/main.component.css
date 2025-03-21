@@ -1,0 +1,151 @@
+.project {
+    margin: 23em 5em 0 5em;
+    text-align: center;
+
+    p {
+        margin: 20px 0;
+        font-size: 12px;
+        opacity: 0.3;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        img {
+            margin: 10px;
+            width: 20%;
+        }
+    }
+
+    a {
+        margin-top: 500px;
+
+        color: #fff;
+        text-decoration: none;
+        font-family: monospace;
+        background: #3780ff;
+        padding: 10px 15px;
+        border-radius: 20px;
+        transition: .3s;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.video {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+
+    .bg {
+        width: 100%;
+    }
+
+    h2 {
+        position: absolute;
+        color: #fff;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%, 20px);
+    }
+
+    .txt {
+        font-size: 12px;
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%, 60px);
+    }
+
+    .vid {
+        width: 60%;
+        transform: translate(0, -60%);
+    }
+
+    .vector {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        font-size: 12px;
+        border: #fff solid 1px;
+        width: 200px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        border-radius: 40px;
+        transform: translate(-50%, -20%);
+
+        img {
+            float: left;
+            width: 50px;
+        }
+
+        p {
+            clear: right;
+            margin-left: 10px;
+        }
+    }
+
+    hr {
+        margin: -60px 3.5em;
+        opacity: 0.3;
+    }
+}
+
+.subscription {
+    text-align: center;
+    margin: 130px 50px;
+    position: relative;
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        opacity: 0.3;
+        margin: 20px 0;
+    }
+
+    .txt1 {
+        font-size: 15px;
+    }
+
+    .txt2 {
+        font-size: 14px;
+    }
+
+    .text, .button {
+        padding: 10px 20px;
+        margin: 0 -2px;
+        border: 0;
+        box-shadow: 4px 5px 20px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .text {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        opacity: 0.5;
+        outline: none;
+    }
+
+    .button {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background: #3780ff;
+        color: #fff;
+        transition: 0.3s;
+
+        &:hover {
+            background: #5b97ff;
+        }
+
+        &:active {
+            background: #306fdd;
+        }
+    }
+}
